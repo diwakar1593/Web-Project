@@ -4,4 +4,4 @@
 
 SR No   | Program | Author  
 --- | --- | ---
-<-- 1 | Armstrong Number | [Diwakar Kumar](https://github.com/diwakar1593) -->
+1 | Guess my Number | [Diwakar Kumar](https://github.com/diwakar1593)
