@@ -1,5 +1,3 @@
-# snake-game
-
 # Snake Game Project
 
 This is a simple Snake game implemented using HTML, CSS, and JavaScript.
