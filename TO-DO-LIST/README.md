@@ -1,6 +1,4 @@
-# CodeClause_TO-DO_LIST
-TASK 1 - TO-DO LIST as a part of
-WEB DEVELOPMENT INTERNSHIP @CodeClause. 
+# TO_DO_LIST 
 This is a TO-DO List web app developed with PHP, HTML,CSS,JS & MySQL.
 It has various features :
 1. Sorting the tasks according to the alphabetical order, time stamp, serial number
