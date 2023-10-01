@@ -1,0 +1,48 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./assets/jungle.jpg');
+    height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    background: linear-gradient(rgb(211, 211, 90), rgb(92, 210, 92));
+    width: 87vmin;
+    height: 85vmin;
+    border: 10px solid green;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+}
+
+.head {
+    background-color: rgb(46, 177, 228);
+    border: .25vmin solid black;
+}
+
+.snake {
+    background-color: rgb(255, 255, 255);
+    border: .25vmin solid black;
+}
+
+.food {
+    background-color: red;
+    border: .25vmin solid black;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
