@@ -12,4 +12,6 @@ SR No   | Program | Author
 6 | File Sharing (swft) | [Nnisarg Gada](https://github.com/nnisarggada)
 7 | Restaurant website | [Amit Kumar Mondal](https://github.com/Amit5620)
 8 | Weather App | [Manvi Rai](https://github.com/manvi-rai)
+9 | Landing Page | [Sameer](https://github.com/xvisierra)
+
 
