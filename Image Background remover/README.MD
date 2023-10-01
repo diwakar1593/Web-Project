@@ -1,5 +1,0 @@
-# WEB APP - IMAGE BACKGROUND REMOVER
-# TECH STACKS- HTML, CSS & JS
-# API USED - Remove.bg
-# Desktop View - 
-
