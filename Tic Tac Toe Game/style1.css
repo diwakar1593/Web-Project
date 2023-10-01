@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Raleway:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(94, 22, 161);
+    color: white;
+    font-size: 40px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+nav ul{
+    list-style-type:none;
+}
+.gameContainer{
+    
+    display:flex;
+    /* flex-flow: column; */
+    justify-content:center;
+    margin-top:20px;
+}
+.container{
+display: grid;
+grid-template-columns: repeat(3,10vw);
+grid-template-rows: repeat(3,10vw);
+/* font-family: sans-serif; */
+font-family: 'Baloo Bhai 2', cursive;
+}
+.box{
+    border:2px solid black;
+    font-size:8vw;
+    cursor:pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box:hover{
+    background-color:rgb(223, 211, 235)
+}
+.gameInfo{
+    padding:0 34px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.br-0{
+    border-right:0;
+}
+.bl-0{
+    border-left:0;
+}
+.bd-0{
+    border-bottom:0;
+}
+.bt-0{
+    border-top:0;
+}
+.reset{
+   
+    font-size: 16px;
+}
+#reset{
+    width: 25%;
+    float: right;
+    font-size: 1.5em;
+    margin-top: 6px;
+    color:aliceblue;
+    background-color: rgb(94, 22, 161);
+    border-radius: 11px;
+    padding:2px;
+    cursor: pointer;
+}
+#reset:hover{
+    color:rgb(94, 22, 161);
+    background-color: white;
+}
+.info{
+    width: 42%;
+    float: left;
+    font-size: 1.5em;
+}
+@media(max-width:1000px){
+    .gameContainer {
+        display: flex;
+        flex-flow: column;
+        margin-top: 20px;
+        align-items: center;
+    }
+}

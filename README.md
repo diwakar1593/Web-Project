@@ -11,3 +11,6 @@ SR No   | Program | Author
 5 | Controlled brightness |[Vats Kumar Sourav](https://github.com/Vatss9)
 6 | Restaurant website | [Amit Kumar Mondal](https://github.com/Amit5620)
 7 | Election frontend website | [Yash Thipsay](https://github.com/yashthipsay)
+8 | File Sharing (swft) | [Nnisarg Gada](https://github.com/nnisarggada)
+9 | Restaurant website | [Amit Kumar Mondal](https://github.com/Amit5620)
+10 | Weather App | [Manvi Rai](https://github.com/manvi-rai)
