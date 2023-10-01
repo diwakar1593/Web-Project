@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <title>Registration-New User</title>
+<link rel="stylesheet" href="stylesheet.css">
+        
+    </head>
+    <body>
+        <style>
+            body{
+                background-image: url("https://wallpaperset.com/w/full/2/c/b/489299.jpg");
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            #role{
+                padding: 5px;
+                border-radius: 5px;
+            }
+            #imagepath{
+                padding: 10px;
+                border: 1px solid black;
+                border-radius: 5px;
+                width: 70vh;
+                
+            }
+            input{
+                text-align: left;
+                width: 70vh;
+                
+            }
+            input:focus{
+                box-shadow: 2px 2px 10px black;
+            }
+            select:focus{
+                box-shadow: 2px 2px 10px black; 
+            }
+            div.a{
+                margin-top: 0vh;
+                border: 1px solid black;
+                height: 240vh;
+                background-color: rgba(255,255,255);
+                margin-right:50vh;
+                margin-left: 50vh;
+                padding-left: 100px;
+                font-family: monospace;
+                font-size: 25px;
+                
+                
+            }
+            
+            option{
+                font-size: 20px;
+            }
+            button{
+                background-color:black;
+                color: white;
+                margin-top:8%;
+                margin-left: 33%;
+                padding:10px;
+                box-shadow: 3px 3px 5px;
+                font-family: monospace;
+                font-size: 20px;
+            }
+            button:hover{
+                background-color: white;
+                color: black;
+                cursor:pointer;
+            }
+            button:active{
+                background-color:black;
+                color: white;
+                
+            }
+            .reset, .reset:active{
+                background-color: aliceblue;
+                color:black;
+                font-family: monospace;
+                font-size: 20px;
+                box-shadow: 3px 3px 5px black;
+            }
+            .reset:hover{
+                cursor:pointer;
+             background-color: black;
+             color: aliceblue;
+            }
+
+        </style>
+       
+        <div class="a">
+        <form action="#">
+             
+             <br><br>
+            <label for="name">Name</label>
+             <div>
+                <input type="text" name="myName" id="name">
+            </div>
+            <br><br>
+            <label for="role">Occupation</label>
+            <div>
+                <select name="occupation" id="role" style="width: 70vh; height: 5vh;" aria-required="true">
+                    <option value="">--</option>
+                    <option value="Corporate Job">Corporate Job</option>
+                    <option value="Government Job">Government Job</option>
+                    <option value="Business">Business</option>
+                    <option value="Freelancer">Freelancer</option>
+                    <option value="Agriculture">Agriculture</option>
+                    <option value="Doctor">Healthcare</option>
+                    <option value="Other">Other</option>
+                    
+                    
+                </select>
+            </div>
+            <br><br>
+            <label for="email">Email</label>
+            <div class="b">
+            <input type="Email" name="myEmail" id="email">
+            </div>
+            <br><br>
+            <lable for="mobile number">Mobile Number</label>
+            <div class="b">
+                <input type="number" name="mobile number" id="mobile number">
+            </div>
+            <br><br>
+            <label for="password">Password</label>
+            <div class="b">
+            <input type="password" name="password" id="password">
+            </div>
+            <br><br>
+            <label for="rpassword">Confirm Password</label>
+            <div class="b">
+            <input type="password" name="cpassword" id="rpassword">
+            </div>
+            <br><br>
+            <label for="voterId">Voter Id Number</label>
+            <div class="b">
+            <input type="number" name="voterId" id="voterId">
+            </div>
+            <br><br>
+            <label for="address">Address</label>
+            <div class="b">
+                <input type="text" name="address" id="address">
+            </div>
+            <br>
+            <br>
+            <div id="imagepath" class="b">
+                Upload image: <input type="file" name="image" id="image">
+            </div>
+            <br>
+            <br>
+            <label for="Birth date">Birth date</label>
+            <div class="b">
+                <input type="Date" name="My Birth Date" id="Birth date">
+            </div>
+            <br>
+            
+            <br>
+            
+            <div>
+            <label for="gen">Gender:</label>
+            <select name="gender" id="gen" style="width: 10vh; height:4vh; font-family: monospace; font-size: 20px;">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="female">Other</option>
+
+            </select>
+            </div>
+            <br>
+            <br>
+                <div>
+                    <input type="reset" name="Reset now" class="reset" style="text-align: center; width: 20%; margin-left: 32%;">
+                </div>
+                <br>
+            <button>REGISTER</button><br><br>
+            <h6 style="text-align: right; margin: 30px;">Already a User? <a href="login_form.html">login here </a></h6>
+             </form>
+             </div>
+
+    </body>
+</html>
