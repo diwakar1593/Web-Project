@@ -15,3 +15,4 @@ SR No   | Program | Author
 9 | Restaurant website | [Amit Kumar Mondal](https://github.com/Amit5620)
 10 | Weather App | [Manvi Rai](https://github.com/manvi-rai)
 11 | Tic Tac Toe Game | [Devrishi Dutta](https://github.com/Devrishi-Dutta)
+12 | Explain the Highlighted Text | [Adaeze Ndupu](https://github.com/vermilion4)
