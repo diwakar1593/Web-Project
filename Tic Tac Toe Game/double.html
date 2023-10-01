@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Mode</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>TicTacToe</li>
+        </ul>
+    </nav>
+    <div class="gameContainer">
+        <div class="container">
+            <div class="box bl-0 bt-0"><span class="boxtext"></span></div>
+            <div class="box  bt-0"><span class="boxtext"></span></div>
+            <div class="box bt-0 br-0"><span class="boxtext"></span></div>
+            <div class="box bl-0"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box br-0"><span class="boxtext"></span></div>
+            <div class="box  bl-0 bd-0"><span class="boxtext"></span></div>
+            <div class="box bd-0"><span class="boxtext"></span></div>
+            <div class="box br-0 bd-0"><span class="boxtext"></span></div>
+        </div>
+        <div class="gameInfo">
+            <h1>welcome to tic tac toe</h1>
+            <div class="reset">
+                <span class="info">turn for x</span>
+                <button id="reset">Reset</button>
+            </div>
+          
+        </div>
+    </div>
+    <script>
+        let container=document.querySelector('.container');
+        for(let index of container.children){
+            index.addEventListener('click',mark);
+        }
+        //function to mark a box and change turns
+        function mark(e){
+        let currentBox=e.currentTarget;
+        let turn=document.querySelector('.info');
+        let text=turn.textContent;
+        if(currentBox.children[0].textContent=='' && checkWin()==false){
+        if(turn.textContent.includes('x')){text='X'; turn.textContent='turn for o';}
+        else{text='O';turn.textContent='turn for x';}
+        currentBox.children[0].textContent=text;
+        if(checkWin()==true){
+            if(turn.textContent.includes('x')){ turn.textContent='O won!!!';}
+            else{turn.textContent='X won!!!';}
+            
+        }}
+        
+        }
+        
+        let reset=document.querySelector('#reset');
+        reset.addEventListener('click',restart);
+        //function for reset button
+        function restart(){
+            for(let index of container.children){
+                index.children[0].textContent="";
+                index.children[0].style="color:black";
+            }
+            let turn=document.querySelector('.info');
+            turn.textContent='turn for x';
+        }
+        // function for checking wins
+        function checkWin(){
+            if(container.children[0].children[0].textContent !="" &&container.children[0].children[0].textContent==container.children[1].children[0].textContent && container.children[1].children[0].textContent==container.children[2].children[0].textContent){container.children[0].children[0].style="color:red";container.children[1].children[0].style="color:red";container.children[2].children[0].style="color:red";return true;}
+           else if(container.children[0].children[0].textContent !="" &&container.children[0].children[0].textContent== container.children[3].children[0].textContent&& container.children[3].children[0].textContent==container.children[6].children[0].textContent){container.children[0].children[0].style="color:red";container.children[3].children[0].style="color:red";container.children[6].children[0].style="color:red";return true;}
+           else if(container.children[0].children[0].textContent !="" &&container.children[0].children[0].textContent== container.children[4].children[0].textContent&& container.children[4].children[0].textContent==container.children[8].children[0].textContent){container.children[0].children[0].style="color:red";container.children[4].children[0].style="color:red";container.children[8].children[0].style="color:red";return true;}
+           else if(container.children[1].children[0].textContent !="" &&container.children[1].children[0].textContent== container.children[4].children[0].textContent&& container.children[4].children[0].textContent==container.children[7].children[0].textContent){container.children[1].children[0].style="color:red";container.children[4].children[0].style="color:red";container.children[7].children[0].style="color:red";return true;}
+           else if(container.children[2].children[0].textContent !="" &&container.children[2].children[0].textContent== container.children[5].children[0].textContent&& container.children[5].children[0].textContent==container.children[8].children[0].textContent){container.children[2].children[0].style="color:red";container.children[5].children[0].style="color:red";container.children[8].children[0].style="color:red";return true;}
+           else if(container.children[2].children[0].textContent !="" &&container.children[2].children[0].textContent== container.children[4].children[0].textContent&& container.children[4].children[0].textContent==container.children[6].children[0].textContent){container.children[2].children[0].style="color:red";container.children[4].children[0].style="color:red";container.children[6].children[0].style="color:red";return true;}
+           else if(container.children[3].children[0].textContent !="" &&container.children[3].children[0].textContent== container.children[4].children[0].textContent&& container.children[4].children[0].textContent==container.children[5].children[0].textContent){container.children[3].children[0].style="color:red";container.children[4].children[0].style="color:red";container.children[5].children[0].style="color:red";return true;}
+           else if(container.children[6].children[0].textContent !="" &&container.children[6].children[0].textContent== container.children[7].children[0].textContent&& container.children[7].children[0].textContent==container.children[8].children[0].textContent){container.children[6].children[0].style="color:red";container.children[7].children[0].style="color:red";container.children[8].children[0].style="color:red";return true;}
+           return false;
+        }
+    </script>
+</body>
+</html>
