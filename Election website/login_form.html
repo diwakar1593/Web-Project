@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>Login</title>
+<link rel="stylesheet" href="stylesheet.css">
+        
+    </head>
+    <body>
+        <style>
+            body{
+                background-image: url("https://wallpaperset.com/w/full/2/c/b/489299.jpg");
+                background-repeat: no-repeat;
+                background-attachment:fixed;
+               
+                background-size: 100%;
+            }
+            #role{
+                padding: 5px;
+                border-radius: 5px;
+            }
+            #imagepath{
+                padding: 10px;
+                border: 1px solid black;
+                border-radius: 5px;
+                width: 70vh;
+                
+            }
+            input{
+                text-align: left;
+                width: 70vh;
+                
+            }
+            input:focus{
+                box-shadow: 2px 2px 10px black;
+            }
+            select:focus{
+                box-shadow: 2px 2px 10px black; 
+            }
+            div.a{
+                margin-top: 0vh;
+                border: 1px solid black;
+                height: 100vh;
+                background-color: rgba(255,255,255);
+                margin-right:50vh;
+                margin-left: 50vh;
+                padding-left: 100px;
+                font-family: monospace;
+                font-size: 25px;
+                
+                
+            }
+            
+            option{
+                font-size: 20px;
+            }
+            button{
+                background-color:black;
+                color: white;
+                margin-top:8%;
+                margin-left: 33%;
+                padding:10px;
+                box-shadow: 3px 3px 5px;
+                font-family: monospace;
+                font-size: 20px;
+            }
+            button:hover{
+                background-color: white;
+                color: black;
+                cursor:pointer;
+            }
+            button:active{
+                background-color:black;
+                color: white;
+                
+            }
+            .reset, .reset:active{
+                background-color: aliceblue;
+                color:black;
+                font-family: monospace;
+                font-size: 20px;
+                box-shadow: 3px 3px 5px black;
+            }
+            .reset:hover{
+                cursor:pointer;
+             background-color: black;
+             color: aliceblue;
+            }
+
+        </style>
+       
+        <div class="a">
+        <form action="#">
+             
+            
+            <br><br>
+            <label for="email">Email</label>
+            <div class="b">
+            <input type="email" name="myEmail" id="email">
+            </div>
+            <br><br>
+            <label for="password">Password</label>
+            <div class="b">
+            <input type="password" name="password" id="password">
+            </div>
+            <br><br>
+            <label for="voterId">Voter Id Number(For Verification)</label>
+            <div class="b">
+            <input type="number" name="voterId" id="voterId">
+            </div>
+           <div>
+                    <input type="reset" name="Reset now" class="reset" style="text-align: center; width: 20%; margin-left: 29%; margin-top: 10vh;">
+                </div>
+                <br>
+            <button>LOGIN</button><br><br>
+            <h6 style="text-align: right; margin: 30px;">New Here? <a href="register_form.html">Register </a></h6>
+             </form>
+             </div>
+
+    </body>
+</html>
