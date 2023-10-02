@@ -1,0 +1,203 @@
+/* Font declaration */
+@font-face {
+    font-family: baloo-bhai;
+    src: url(../Assets/fonts/Baloo_Bhai.ttf);
+}
+
+@font-face {
+    font-family: Lilita-One;
+    src: url(../Assets/fonts/LilitaOne.ttf);
+}
+
+@font-face {
+    font-family: Kaushan-Script;
+    src: url(../Assets/fonts/KaushanScript.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.primary-heading{
+    font-family: Kaushan-Script , sans-serif;
+    font-weight: 900;
+}
+
+.sec-heading{
+    font-family: Lilita-One , 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+body{
+    font-family: baloo-bhai , 'Courier New', Courier, monospace !important;
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #000000b7;
+    color: white;
+    padding: 10px 0;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 10px;
+    transition: 0.5s ease-in-out;
+}
+
+ul li:hover{
+    scale: 1.1;
+}
+
+ul li a{
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: orange;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.hangman_game{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.game{
+    width: 45vw;
+    padding: 20px;
+    height: fit-content;
+    margin: 20px 0;
+    border-right: 1px solid salmon;
+}
+
+.btn{
+    height: 5vh;
+    width: 3vw;
+    /* padding: 2.5vh 1vw; */
+    margin: 2.5vh 1vw;
+    border: 1px solid ;
+    border-radius: 10px;
+    border-color: rgb(197, 197, 197);
+    font-family: baloo-bhai , 'Courier New', Courier, monospace;
+}
+
+.restart_btn{
+    padding: 4px 8px;
+    color: white;
+    background: #000000b7;
+    border: 1px solid hotpink;
+    border-radius: 4px;
+    font-family: baloo-bhai , 'Courier New', Courier, monospace;
+}
+
+.hangman{
+    width: 45vw;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hangman_logo{
+    width: 20vw;
+    border: 1px solid #000000b7;
+}
+
+.words_char{
+    margin: 5vh 0;
+}
+
+.word_guess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guessword_heading , .guessword{
+    
+    font-size: 1.8rem;
+    padding: 0 8px;
+}
+
+.game_chances{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.chances{
+    margin: 0 8px ;
+    color: red;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #000000b7;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer_first{
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.rule_heading{
+    font-size: 2rem;
+}
+
+.rules{
+    width: 90vw;
+    margin: auto;
+}
+
+.disabled{
+    background-color: rgb(234, 179, 179);
+    cursor: not-allowed;
+}
+
+.hidden{
+    display: none;
+}
