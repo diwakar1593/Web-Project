@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1120px){
+    .game_chances{
+        font-size: 1.5rem;
+
+    }
+    .chances{
+        font-size: 1.8rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 900px){
+
+    .word_guess{
+        flex-direction: column;
+    }
+    .hangman{
+        flex-direction: column-reverse;
+    }
+    .game_chances{
+        flex-direction: column;
+    }
+    .hint{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .nav{
+        flex-direction: column;
+    }
+
+    .footer_first{
+        flex-direction: column;
+    }
+
+    .hangman_game{
+        flex-direction: column-reverse;
+    }
+
+    .game_chances{
+        flex-direction: row;
+    }
+
+    .game{
+        width: 90%;
+        border-top: 1px solid salmon;
+        border-right: none;
+    }
+
+    .btn{
+        width: 5vw;
+    }
+
+    .hangman_logo{
+        width: 50vw;
+    }
+
+    .word_guess{
+        text-align: center;
+        
+    }
+    .guessword_heading{
+        font-size: 1.3rem;
+    }
+    .guessword{
+        font-size: 1.4rem;
+    }
+
+}
