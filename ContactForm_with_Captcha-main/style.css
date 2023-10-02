@@ -1,0 +1,140 @@
+body{
+  background: linear-gradient(to right, #c3577b 15%, #424989 100%);
+ }
+.container {
+max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and(max-width:750px){
+  .container {
+    max-width:500px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 16px;
+  }
+ 
+  .captcha-container input[type="checkbox"] {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .captcha-container {
+    
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .captcha-container label {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .slider-thumb::before {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    visibility: hidden;
+  }
+}
+h2 {
+  text-align: center;
+  font-family: 'Tilt Prism', cursive;
+  font-size:50px;
+  color:rgb(71, 32, 2);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.captcha-container {
+  margin-bottom: 5px;
+}
+
+.captcha-container input[type="checkbox"] {
+  margin-right:200px;
+  transform: scale(1.5);
+}
+.captcha-container input[type="checkbox"]:hover {
+  border-color:black;
+  border-width:10px;
+}
+.captcha-container label {
+color:white;
+font-family: 'Roboto', sans-serif;
+  margin-left: 200px;
+  
+}
+
+input[type="submit"] {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #0365d4;
+  color: white;
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #f1eded;
+  color:black;
+}
+.robot{
+  height:20px;
+  margin-right:200px;
+}
+.slider-thumb::before {
+	position: absolute;
+	content: "";
+	left: 40%;
+	top: 20%;
+	width: 450px;
+	height: 450px;
+	background: #3f3838;
+	border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+	will-change: border-radius, transform, opacity;
+	animation: sliderShape 5s linear infinite;
+	display: block;
+	z-index: -1;
+	-webkit-animation: sliderShape 5s linear infinite;
+}
+@keyframes sliderShape{
+  0%,100%{
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  34%{
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+  }
+  50%{
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  67%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+  }
+}
