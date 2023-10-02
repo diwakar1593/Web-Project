@@ -20,6 +20,7 @@ SR No   | Program | Author
 14 | Weather App | [Manvi Rai](https://github.com/manvi-rai)
 15 | Tic Tac Toe Game | [Devrishi Dutta](https://github.com/Devrishi-Dutta)
 16 | Explain the Highlighted Text | [Adaeze Ndupu](https://github.com/vermilion4)
+17|AMAZON CLONE | [ASHISH SINHA](https://github.com/ashishbuster)
 17 | BMI Calculator | [Pawan Raj Singh](https://github.com/pawanrajsingh2088)
 18 | Hangman Game | [Sahil Kumar](https://github.com/SahilKumarIN)
 19 | E-kart shopping website | [Richa](https://github.com/Richachoudhary853)
