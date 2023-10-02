@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form with CAPTCHA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-XXX" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-EXAMPLE-INTEGRITY-CHECKSUM" crossorigin="anonymous" />
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="slider-thumb"></div>
+  <div class="container">
+    <h2>Contact Form</h2>
+    <form id="contact-form" method="POST" action="https://formspree.io/f/mnqybjpy" class="my">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <div class="captcha-container">
+        <input type="checkbox" id="robot" name="robot" required class="robot" >
+        <label for="robot">I am not a robot</label>
+      </div>
+      <input type="submit" value="Send Message">
+    </form>
+  </div>
+  
+  <script src="mail.js"></script>
+</body>
+</html>
