@@ -1,0 +1,121 @@
+body{
+    background-image: url("../Assets/back.jpg ");
+}
+h1{
+    color:red;
+    font-size: 7vh;
+    font-family: cursive;
+    font-style: italic;
+    margin-left: 27vw;
+}
+.system{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.height h2{
+    font-size: 5vh;
+    color:chartreuse;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+#feet{
+    height: 5vh;
+    width: 15vw;
+    margin-left: 3vw;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color:wheat;
+    color: blue;
+    font-size:20px;
+    font-weight: 700;
+    text-align: right;
+}
+
+#inch{
+    height: 5vh;
+    width: 15vw;
+    margin-left: 3vw;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color:wheat;
+    color: blue;
+    font-size:20px;
+    font-weight: 700;
+    text-align: right;
+}
+.weight h2{
+    font-size: 5vh;
+    color:salmon;
+    font-style: italic;
+    font-family:monospace;
+}
+#weight{
+    height: 5vh;
+    width: 15vw;
+    margin-left: 7vw;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color:wheat;
+    color: blue;
+    font-size:20px;
+    font-weight: 700;
+    text-align: right;
+}
+#btn{
+    width: 10vw;
+    height: 8vh;
+    background-color: greenyellow;
+    margin-top: 2vh;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-weight: 800;
+    color:teal;
+    font-size: 18px;
+}
+.system2{
+    position: absolute;
+    top: 20vh;
+    left: 22vw;
+    background-color:yellow;
+    height: 75vh;
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid yellow;
+    border-radius: 20px;
+    display: none;
+}
+.output{
+    font-size: 40px;
+    font-weight: 800;
+    color:red;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+.warn{
+    font-size: 30px;
+    font-weight: 700;
+    color:purple;
+    margin-top: 10vh;
+    margin-left: 2vw;
+}
+#ok{
+    position: absolute;
+    top: 65vh;
+    left: 23vw;
+    width: 10vw;
+    height: 9vh;
+    border: 2px solid green;
+    border-radius: 20px;
+    background-color:mediumblue;
+    color:red;
+    font-size: 20px;
+    font-weight: 800;
+}
