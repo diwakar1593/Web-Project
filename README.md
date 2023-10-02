@@ -16,3 +16,4 @@ SR No   | Program | Author
 10 | Weather App | [Manvi Rai](https://github.com/manvi-rai)
 11 | Tic Tac Toe Game | [Devrishi Dutta](https://github.com/Devrishi-Dutta)
 12 | Explain the Highlighted Text | [Adaeze Ndupu](https://github.com/vermilion4)
+15 | BMI Calculator | [Pawan Raj Singh](https://github.com/pawanrajsingh2088)
