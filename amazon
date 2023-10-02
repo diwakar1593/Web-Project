@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="product-card">
+        <img src="product-image.jpg" alt="Product Name">
+        <h2 class="product-title">Product Name</h2>
+        <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate
+            eu pharetra nec.</p>
+        <span class="product-price">$99.99</span>
+        <button class="buy-button">Add to Cart</button>
+    </div>
+</body>
+
+</
