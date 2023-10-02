@@ -24,3 +24,4 @@ SR No   | Program | Author
 18 | Hangman Game | [Sahil Kumar](https://github.com/SahilKumarIN)
 19 | E-kart shopping website | [Richa](https://github.com/Richachoudhary853)
 20 | Temperature Converter |[Harsh Sharma](https://github.com/HarshSharmaIN)
+21 | Calculator  | [Aaisha Perveen](https://github.com/aaisha26)
