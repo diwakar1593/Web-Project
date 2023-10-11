@@ -28,3 +28,4 @@ SR No   | Program | Author
 21 | DrumKit |[Harsh Mishra](https://github.com/harshmishra19)
 22 | Calculator  | [Aaisha Perveen](https://github.com/aaisha26)
 23 | Dynamic Online Resume/CV | [Aditi Kakade](https://github.com/Aditi-K4)
+24 | Blog Website | [Sharad Jha](https://github.com/sharadj34)
