@@ -29,3 +29,5 @@ SR No   | Program | Author
 22 | Calculator  | [Aaisha Perveen](https://github.com/aaisha26)
 23 | Dynamic Online Resume/CV | [Aditi Kakade](https://github.com/Aditi-K4)
 24 | QR Code Reader and Generator | [Saikat Samanta](https://github.com/psykat1116)
+25 | Blog Website | [Sharad Jha](https://github.com/sharadj34)
+26 | Micro Code Editor in the Browser | [Sameer](https://github.com/xvisierra)
