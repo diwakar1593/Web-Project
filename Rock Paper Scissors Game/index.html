@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Rock Paper Scissors Game</h1>
+        </div>
+
+        <div class="game">
+
+            <h2>Your Choice: <span id="user-choice"></span></h2>
+            <h2>JS Bot Choice: <span id="computer-choice"></span></h2>
+            <h2>RESULT: <span id="result"></span></h2>
+            
+            <div class='buttons'>
+                <button class="btn" id="rock" data-choice="rock">
+                    rock
+                </button>
+                <button class="btn" id="paper" data-choice="paper">
+                    paper
+                </button>
+                <button class="btn" id="scissors" data-choice="scissors">
+                    scissors
+                </button>
+                <button id="reset" data-choice="Reset" onclick="reset()">
+                    Reset
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="word">
+    
+            <p>Made with <span id="hrt"><i class="far fa-heart"></i></span> | ꧁LiquidTime꧂ 2022</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
