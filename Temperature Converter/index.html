@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="left_section">
+            <h1>Temperature Converter</h1>
+        </div>
+        <div class="right_section">
+            <span>Home</span>
+            <span>About</span>
+            <span>Contact Us</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="body">
+            <h1>Temperature Converter</h1>
+            <div class="input">
+                <label for="temperature1"></label>
+                <input type="text" name="temperature1" id="temp1">
+                <select name="temperature1" id="option1">
+                    <option value="cel">Celsius</option>
+                    <option value="fah">Fahrenheit</option>
+                    <option value="kel">Kelvin</option>
+                </select>
+            </div>
+            <div class="input">
+                <label for="temperature2"></label>
+                <input type="text" name="temperature2" id="temp2">
+                <select name="temperature2" id="option2">
+                    <option value="fah">Fahrenheit</option>
+                    <option value="cel">Celsius</option>
+                    <option value="kel">Kelvin</option>
+                </select>
+            </div>
+            <button class="btn" id="submit">Convert</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; Harsh Sharma <span id="crntyear"></span></p>
+    </footer>
+    <script src="script/index.js"></script>
+</body>
+
+</html>

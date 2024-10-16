@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a Hangman Game developed by HTML5 , CSS3 , JS.">
+    <title>Hangman Game - Project developed by HTML5 , CSS3 & JS</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="shortcut icon" href="Assets/hangman_img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <div class="nav">
+                <div class="logo primary-heading">
+                    <a href="index.html">Hangman Game</a>
+                </div>
+                <div class="options">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="HTML/rules.html">Rules</a></li>
+                        <li><a href="HTML/about.html">About</a></li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+    <main class="hangman_game">
+        <section class="game">
+            <section class="word_guess">
+                <div class="sec-heading guessword_heading">Guess the Word : </div>
+                <div class="guessword sec-heading" id="textbox"></div>
+            </section>
+            <section class="words_char" id="words_char"></section>
+            <section class="hint sec-heading guessword_heading" id="hint"></section>
+            <!-- <section class="realword sec-heading guessword_heading" id="realword"></section> -->
+            <section class="restartbtn text-center "><button class="restart_btn hidden" id="restart">Restart</button></section>
+        </section>
+        <section class="hangman">
+            <img class="hangman_logo" src="Assets/hangman_img/logo.png" alt="Hangman" id="image">
+            <div class="game_chances">
+                <span class="chances_left sec-heading">Chances Left : </span>
+                <span class="chances" id="lives">6</span>
+            </div>
+            
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer_first">
+            <div class="logo primary-heading"><a href="index.html">Hangman Game</a></div>
+            <div class="options">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="HTML/rules.html">Rules</a></li>
+                    <li><a href="HTML/about.html">About</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <hr style="width: 90vw; margin: 4px 0;">
+        <div class="copyright">
+            &copy;Copyrights Reserved - Hangman Game - 2023 | Sahil Kumar 
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

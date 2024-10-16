@@ -1,0 +1,78 @@
+@media only screen and (max-width:1000px) {
+    #feet{
+        width: 30vw;
+    }
+    #inch{
+        width: 30vw;
+    }
+    #weight{
+        width: 30vw;
+        margin-left: 15vw;
+    }
+    #btn{
+        width: 20vw;
+    }
+    #system2{
+        width: 80vw;
+        left: 10vw;
+        margin-top: 5vh;
+    }
+    .output{
+        margin-left: 1vw;
+        width: 95vw;
+    }
+    .warn{
+        margin-top: 5vh;
+    }
+    #ok{
+        width: 20vw;
+    }
+}
+@media only screen and (max-width:400px) {
+    .height{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        font-size: 20px;
+        width: 100vw;
+        margin-left: 0vw;
+    }
+    #feet{
+        width: 70vw;
+    }
+    #system{
+        height: 100vh;
+    }
+    #inch{
+        width: 70vw;
+        margin-top: 2vh;
+    }
+    #weight{
+        width: 70vw;
+    }
+    #btn{
+        width: 70vw;
+    }
+    #ok{
+        width: 40vw;
+        margin-top: 5vh;
+    }
+    #system2{
+        width: 100vw;
+        margin-top: 2vh;
+    }
+    #ok{
+        top: 55vh;
+    }
+    #output{
+        font-size: 25px;
+    }
+    #warn{
+        font-size: 25px;
+    }
+    .hide{
+        display: hidden;
+    }
+}

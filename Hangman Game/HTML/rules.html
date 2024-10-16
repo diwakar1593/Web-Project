@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rules - Hangman Game</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/responsive.css">
+    <link rel="shortcut icon" href="../Assets/hangman_img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <div class="nav">
+                <div class="logo primary-heading">
+                    <a href="../index.html">Hangman Game</a>
+                </div>
+                <div class="options">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+    <div class="rule_heading sec-heading text-center">Rules</div>
+
+    <div class="rules ">
+        <ol>
+            <li><b>Objective:</b> The objective of Hangman Game is to guess a hidden word by suggesting letters within a limited number of attempts.</li>
+
+            <li><b>Word Selection:</b> A word is selected at random from a predefined word bank. The word can be a common English word, a phrase, a name, or any other category specified in the game.</li>
+
+            <li><b>Game Display:</b> At the beginning of the game, a series of dashes or underscores representing the letters in the word is displayed. The number of dashes or underscores corresponds to the number of letters in the word.</li>
+
+            <li><b>Guessing Letters:</b> Players can guess letters by selecting them from an on-screen keyboard or by typing them using their physical keyboard. The letter guessed should be a valid English alphabet character (A-Z).</li>
+
+            <li><b>Correct Guess:</b> If the guessed letter is present in the word, all occurrences of that letter in the word are revealed in their respective positions. The player's number of attempts remains the same, and they can continue guessing.</li>
+
+            <li><b>Incorrect Guess:</b> If the guessed letter is not present in the word, the hangman's gallows starts to appear gradually. With each incorrect guess, a part of the hangman's body, such as the head, body, arms, or legs, is drawn. The number of incorrect guesses allowed may vary, but typically it is limited to 6 or 7 incorrect guesses.</li>
+
+            <li><b>Maximum Attempts:</b> The player has a limited number of attempts to guess the word correctly before the hangman's body is completely drawn. If the player exceeds the maximum number of incorrect guesses, the game ends, and the player loses.</li>
+
+            <li><b>Winning the Game:</b> The player wins the game by correctly guessing all the letters in the word before using up all the attempts. When all the letters are revealed, the complete word is displayed, and the player is declared the winner.</li>
+
+            <li><b>Score Tracking:</b> The game keeps track of the player's score by recording the number of wins and losses. Players can challenge themselves or compete with others to achieve a high score.</li>
+
+            <li><b>Replayability:</b> After completing a game, players can choose to play again with a new word from the word bank, offering a fresh challenge and opportunity to improve their performance.</li>
+        </ol>
+        <br>
+        <p>Remember, each Hangman Game may have slight variations in rules and gameplay mechanics, but the core objective remains the same - to guess the hidden word within a limited number of attempts.
+       </p>
+    </div>
+
+    <footer>
+        <div class="footer_first">
+            <div class="logo primary-heading"><a href="../index.html">Hangman Game</a></div>
+            <div class="options">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <hr style="width: 90vw; margin: 4px 0;">
+        <div class="copyright">
+            &copy;Copyrights Reserved - Hangman Game - 2023 | Sahil Kumar 
+        </div>
+    </footer>
+
+    <script src="../JS/script.js"></script>
+</body>
+</html>
