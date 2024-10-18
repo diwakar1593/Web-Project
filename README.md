@@ -34,3 +34,4 @@ SR No   | Program | Author
 27 | QR Code Reader and Generator | [Saikat Samanta](https://github.com/psykat1116)
 28 | Blog Website | [Sharad Jha](https://github.com/sharadj34)
 29 | Micro Code Editor in the Browser | [Sameer](https://github.com/xvisierra)
+30 | Netflix Clone | [Bhumit Gupta](https://github.com/Bhumitg07205)
